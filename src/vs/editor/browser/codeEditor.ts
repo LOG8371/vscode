@@ -5,6 +5,7 @@
 'use strict';
 
 // This is a test
+// This is also a test
 
 import { IInstantiationService } from 'vs/platform/instantiation/common/instantiation';
 import { ICommandService } from 'vs/platform/commands/common/commands';

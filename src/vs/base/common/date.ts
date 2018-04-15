@@ -16,10 +16,10 @@ function pad(number: number): string {
 export function toLocalISOString(date: Date): string {
 	// In JavaScript, the month of a date is between 0 and 11,
 	// so we need to add one in order to show it correctly to users
-	const MONHT_SHIFT = 1;
+	const MONTH_SHIFT = 1;
 
 	return date.getFullYear() +
-		'-' + pad(date.getMonth() + MONHT_SHIFT) +
+		'-' + pad(date.getMonth() + MONTH_SHIFT) +
 		'-' + pad(date.getDate()) +
 		'T' + pad(date.getHours()) +
 		':' + pad(date.getMinutes()) +

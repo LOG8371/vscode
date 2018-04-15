@@ -60,3 +60,7 @@ matrix:
       env: label=hygiene
       script: node_modules/.bin/gulp hygiene
       after_success: skip
+
+env:
+  global:
+    secure: I/6cLCDCdhCGo7TEvXyjqp0gYXlyQMBi3/Y3jDxpBCfbI+6B6kni1sOoI9evwGZlPQCnsEkT4bnM+QYb6qtEDVoiwBS/MB+RDXCOX8+BpfJOxGRHa2KhD+Ia2lCiE9uWMtGOgOTOmxJonZrp7Q1YamPZLG8IrIHPI1OlKLIzV61GxAem4uHNEnafYsPIXMT9wZhuW1WD/iEXUjYFCMyW6CggmyKSlHQoGKdizJkGFP5qvdtb8fqT2jZfeRRAXgizfJL4J4s3qtP7rrsg458YvrTF+VYzbOvby6PHolrc/C5iRAYUIeOhYsPUKXOri8lK6qJueASBcTS0K+kJdGz0ym6RRXA1jadzYwkYvkwqAO/vZxKEcVNrgLkeHBjzWyIfGuO9toZFeQLAP83cfTJW3kJ6ntqWjyi+YX8J01gDIq1VY00MQ+wCv+zvsbCbyJy4XOwSZN9i+NLdKKzVabr/8njttJEFekb7QdLnig8Z/YVK/1wI+ENDCxvjVRDv2kXR58Myz20HNT/F8NIZvY4+u8AX96HwkBeFxWC2HlRws5zgco+o0UJlaTNFYG1Ev64QKtcDemLqW89EXWMw5+YVFFPdmD2qHmYgymr/QLxlVJhseogEhw8+saASolNmPCq4Vw9h+vDzjCqCZiC6XKXMK8TPmEtYK7sopXitfMStx7c=
